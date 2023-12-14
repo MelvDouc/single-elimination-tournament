@@ -1,0 +1,37 @@
+.InitialPlayersTable {
+  border-spacing: 1px;
+
+  thead {
+    background-color: #222;
+    color: white;
+  }
+
+  tbody tr {
+    background-color: #90eeb0;
+  }
+
+  th,
+  td {
+    padding: 0.4em;
+  }
+
+  th:first-child {
+    width: 100%;
+  }
+
+  td:nth-child(2) {
+    text-align: center;
+  }
+}
+
+.delBtn {
+  all: unset;
+  width: 20px;
+  aspect-ratio: 1;
+  font-family: Consolas, 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  background-color: red;
+  color: white;
+}

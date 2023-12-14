@@ -1,0 +1,25 @@
+.pairing {
+  display: flex;
+  margin-bottom: 0.4em;
+
+  .board {
+    padding: 0.5em;
+    width: 40px;
+    display: grid;
+    place-items: center;
+    background-color: darkblue;
+    color: white;
+  }
+
+  .contents {
+    width: 100%;
+    padding: 0.5em;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    background-color: lightblue;
+
+    span:last-child {
+      text-align: end;
+    }
+  }
+}

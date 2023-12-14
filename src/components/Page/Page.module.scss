@@ -1,0 +1,14 @@
+.Page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+
+  h2 {
+    text-align: center;
+  }
+
+  article {
+    flex: 1;
+  }
+}
