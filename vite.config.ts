@@ -12,4 +12,5 @@ export default defineConfig({
     jsxFragment: "Fragment",
     jsxInject: "import {h, Fragment} from 'reactfree-jsx';",
   },
+  base: "/single-elimination-tournament/"
 });
