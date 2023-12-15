@@ -6,6 +6,8 @@ import cssClasses from "$src/components/RoundPage/RoundPage.module.scss";
 export default function RoundPage({ round }: {
   round: Round;
 }) {
+  document.title = `Ronde ${round.number} | Tournoi d'échecs`;
+
   const setResult = (board: number) => {
     return ({ target }: Event) => {
       const result = (target as HTMLSelectElement).value as Result;

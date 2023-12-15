@@ -6,6 +6,8 @@ import cssClasses from "$src/components/WinnersPage/WinnersPage.module.scss";
 export default function WinnersPage({ winners }: {
   winners: Player[];
 }) {
+  document.title = "Vainqueurs | Tournoi d'échecs";
+
   return (
     <Page title="Vainqueurs">
       <ul className={cssClasses.winners} $init={() => {
